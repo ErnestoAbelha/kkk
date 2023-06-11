@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": ["Olá", "Oi", "Tudo bem?", "Bom dia"],
+      "responses": ["Olá! Tudo bem?", "Oi! Como posso ajudar?", "Bom dia! Em que posso ajudar?"]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["Tchau", "Até logo", "Adeus", "Nos vemos mais tarde"],
+      "responses": ["Até logo! Foi bom falar com você.", "Tchau! Volte sempre."]
+    },
+    {
+      "tag": "horario",
+      "patterns": ["Que horas são?", "Que horas temos?", "Qual é a hora agora?"],
+      "responses": ["Agora são {horario_atual}.", "São {horario_atual}."]
+    }
+  ]
+}
